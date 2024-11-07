@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Idioma principal-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Vitalis</title> <!-- Título da página -->
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link rel="icon" href="../projetomed-main/assets/favicon-16x16.png"> <!-- Favicon -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Boostrap css files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@9.4.0/swiper-bundle.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css"> <!-- Css main -->
+</head>
+
+<body> <!-- Início do body -->
+
+
+  <header id="header" class="header"> <!-- Início do header -->
+
+    <div class="topbar d-flex align-items-center">
+
+      <div class="container d-flex justify-content-center justify-content-md-between">
+
+        <div class="d-none d-md-flex align-items-center"> <!-- Início da topbar -->
+
+          <i class="bi bi-clock"></i>
+          Segunda a Sexta, das 13h às 17h
+
+        </div>
+
+        <div class="d-flex align-items-center">
+
+          <i class="bi bi-phone"></i>
+          Ligue agora: (11) 98765 - 4321
+        </div>
+      </div>
+    </div> <!-- Fim da topbar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+
+        <a href="" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="">
+        </a>
+
+        <nav id="navmenu" class="navmenu"> <!-- Início do menu -->
+          <ul>
+            <li> <a href="#hero" class="active"> Home </a> </li>
+            <li> <a href="#about"> Sobre </a> </li>
+            <li> <a href="#services"> Serviços </a> </li>
+            <li> <a href="#departamentos"> Departamentos </a> </li>
+            <li> <a href="#medicos"> Médicos </a> </li>
+            <li> <a href="#contato"> Contato </a> </li>
+            <li class="dropdown"> <!-- Início do submenu -->
+              <a href="#">
+                <span> Mais Opções </span>
+                <i class="bi bi-chevron-down"> </i>
+              </a>
+              <ul>
+                <li> <a href="#"> Opção 1 </a> </li>
+                <li> <a href="#"> Opção 2 </a> </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span> Submenu </span>
+                    <i class="bi bi-chevron-down"> </i>
+                  </a>
+
+                  <ul>
+                    <li> <a href="#"> Submenu 1 </a> </li>
+                    <li> <a href="#"> Submenu 2 </a> </li>
+                  </ul>
+                </li> 
+              </ul>
+            </li> <!-- Fim do submenu -->
+          </ul>
+
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"> </i>
+
+        </nav>
+
+        <a href="index.html#consulta" class="cta-btn">
+          Agende uma Consulta
+        </a>
+
+      </div> 
+
+    </div> <!-- Fim do menu -->
+
+  </header> <!-- Fim do header -->
+
+  <main class="main"> <!-- Início da main -->
+
+    <section id="hero" class="hero section"> <!-- Início da hero section -->
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="9000">
+
+        <div class="carousel-item active"> <!-- Início da foto 1 / slide 1 -->
+          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+
+          <div class="container">
+            <h2> Bem-vindo à Clínica Vitalis </h2>
+            <p>
+              Na Clínica Vitalis, cuidamos da sua saúde com carinho e dedicação.
+              Nossa equipe de profissionais está preparada para oferecer o melhor atendimento, com foco no bem-estar e
+              na qualidade de vida de nossos pacientes.
+            </p>
+          </div>
+        </div> <!-- Fim da foto 1 / slide 1 -->
+
+        <div class="carousel-item"> <!-- Início da foto 2 / slide 2 -->
+          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+
+          <div class="container">
+            <h2> Cuidado e Atenção para Você </h2>
+            <p>
+              Estamos sempre prontos para atender você e sua família com excelência e humanidade. Oferecemos uma ampla
+              gama de serviços médicos para garantir que você tenha acesso ao melhor tratamento possível
+            </p>
+          </div>
+        </div> <!-- Fim da foto 2 / slide 2 -->
+
+        <div class="carousel-item"> <!-- Início da foto 3 / slide 3 -->
+          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+
+          <div class="container">
+            <h2> Excelência em Saúde </h2>
+            <p>
+              Nossa missão é promover saúde e bem-estar com um atendimento personalizado e de alta qualidade. Confie em
+              nossos especialistas para cuidar de você em todas as fases da vida.
+            </p>
+          </div>
+        </div> <!-- Fim da foto 3 / slide 3 -->
+
+        <a href="#hero-carousel" class="carousel-control-prev" role="button" data-bs-slide="prev"> <!-- Control prev -->
+
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"> </span>
+
+        </a>
+
+        <a href="#hero-carousel" class="carousel-control-next" role="button" data-bs-slide="next"> <!-- Control next -->
+
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"> </span>
+
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+
+      </div> 
+
+    </section> <!--  Fim da hero section -->
+
+    <section id="featured-services" class="featured-services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100"> <!-- Início do item 1 -->
+
+            <div class="service-item position-relative">
+
+              <div class="icon">
+                <i class="fas fa-heartbeat icon"></i>
+              </div>
+
+              <h4>
+                <a href="" class="stretched-link">Cardiologia </a>
+              </h4>
+
+              <p>Cuidados completos para a saúde do seu coração, incluindo exames e tratamentos especializados.</p>
+
+            </div>
+          </div> <!-- Fim do item 1 -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200"> <!-- Início do item 2 -->
+
+            <div class="service-item position-relative">
+
+              <div class="icon">
+                <i class="fas fa-pills icon"></i>
+              </div>
+
+              <h4>
+                <a href="" class="stretched-link">Farmacia </a>
+              </h4>
+
+              <p>Medicamentos e orientações para garantir o uso correto e seguro de seus tratamentos.</p>
+
+            </div>
+          </div> <!-- Fim do item 2 -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300"> <!-- Início do item 3 -->
+
+            <div class="service-item position-relative">
+
+              <div class="icon">
+                <i class="fas fa-thermometer icon"></i>
+              </div>
+
+              <h4>
+                <a href="" class="stretched-link">Clínica Geral </a>
+              </h4>
+
+              <p>Consultas de rotina e acompanhamento para prevenir e tratar diversas condições de saúde.</p>
+
+            </div>
+          </div> <!-- Fim do item 3 -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400"> <!-- Início do item 4 -->
+
+            <div class="service-item position-relative">
+
+              <div class="icon">
+                <i class="fas fa-dna icon"></i>
+              </div>
+
+              <h4>
+                <a href="" class="stretched-link">Genética</a>
+              </h4>
+
+              <p>Exames genéticos para diagnóstico e prevenção de doenças hereditárias. E testes de paternidade</p>
+
+            </div>
+          </div> <!-- Fim do item 4 -->
+
+        </div> 
+
+      </div> 
+
+    </section> 
+
+    <section id="call-to-action" class="call-to-action section accent-background"> <!-- Início da emergência -->
+
+      <div class="container">
+
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-xl-10">
+
+            <div class="text-center">
+              <h3> Emergência? Precisa de ajuda agora? </h3>
+
+              <p>Se você está enfrentando uma emergência médica ou precisa de atendimento imediato, nossa equipe está
+                pronta para ajudar. Entre em contato conosco e receba o cuidado necessário o mais rápido possível.</p>
+
+              <a class="cta-btn" href="#consulta">
+                Agende uma Consulta </a>
+
+            </div>
+
+          </div> 
+
+        </div> 
+
+      </div> 
+
+    </section> <!-- Fim  da emergência -->
+
+    <section id="about" class="about section"> <!-- Início do sobre -->
+
+      <div class="container section-title" data-aos="fade-up"> <!-- Início da section title -->
+
+        <h2> Sobre Nós </h2>
+        <p> Compromisso com sua saúde e bem-estar em todas as fases da vida. </p>
+
+      </div> <!-- Fim da section title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+
+            <img src="assets/img/about.jpg" alt="" class="img-fluid">
+
+            <a href="https://www.youtube.com/watch?v=_fuimO6ErKI" class="glightbox pulsating-play-btn">
+            </a>
+          </div> 
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+
+            <h3>Excelência no cuidado à saúde, com dedicação e profissionalismo.</h3>
+
+            <p class="fst-italic">
+              Na Clínica Vitalis, nosso objetivo é promover a saúde e o bem-estar de nossos pacientes, oferecendo
+              atendimento humanizado e tratamentos inovadores.
+            </p>
+
+            <ul>
+              <li>
+                <i class="bi bi-check2-all"></i>
+                <span>Equipe médica qualificada, sempre pronta para atender você.</span>
+              </li>
+
+              <li>
+                <i class="bi bi-check2-all"></i>
+                <span>Infraestrutura moderna e confortável para garantir o seu melhor cuidado.</span>
+              </li>
+
+              <li>
+                <i class="bi bi-check2-all"></i>
+                <span>Serviços abrangentes, desde consultas de rotina até tratamentos especializados.</span>
+              </li>
+            </ul>
+
+            <p>
+              Estamos comprometidos em proporcionar a melhor experiência para nossos pacientes, com atendimento
+              personalizado, empatia e respeito. Sua saúde é nossa prioridade!
+            </p>
+
+          </div> 
+
+        </div>
+
+      </div>
+
+    </section> <!-- Fim do sobre -->
+
+    <section id="stats" class="stats section"> <!-- Início da status section -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6"> <!-- Início da status 1 -->
+
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+
+              <i class="fas fa-user-md flex-shrink-0"> </i>
+
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p> Médicos </p>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- Fim da status 1 -->
+
+          <div class="col-lg-3 col-md-6">  <!-- Início da status 2 -->
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="fas fa-flask flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Laboratórios de Pesquisa</p>
+              </div>
+            </div>
+          </div><!-- Fim da status 2 -->
+
+          <div class="col-lg-3 col-md-6">  <!-- Início da status 3 -->
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="far fa-hospital flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Departamentos</p>
+              </div>
+            </div>
+          </div><!-- Fim da status 3 -->
+
+          <div class="col-lg-3 col-md-6"> <!-- Início da status 4 -->
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="fas fa-award flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Prêmios</p>
+              </div>
+            </div>
+          </div> <!-- Fim da status 4  -->
+
+        </div> 
+
+      </div> 
+
+    </section> <!-- Fim da status section -->
+
+    <section id="features" class="features section"> <!-- Início das características section -->
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+
+          <!-- Está classe aplica um estilo flexbox que distribui as colunas ao longo da linha, com espaço igual ao redor delas. -->
+
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/features.jpg" alt="">
+          </div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+            <h3>Excelência e cuidado em todos os aspectos da sua saúde</h3>
+
+            <p>Nosso compromisso é proporcionar um atendimento humanizado e de qualidade, sempre priorizando o bem-estar
+              e a saúde de nossos pacientes.</p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300"> <!-- Início da icon-box 1 -->
+
+              <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">
+                    Atendimento Personalizado
+                  </a>
+                </h4>
+
+                <p>Garantimos um atendimento acolhedor e individualizado, respeitando as necessidades de cada paciente.
+                </p>
+              </div>
+            </div> <!-- Fim da icon-box 1 -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400"> <!-- Início da icon-box 2 -->
+              <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">
+                    Equipamentos Modernos
+                  </a>
+                </h4>
+                <p>Utilizamos tecnologia de ponta para oferecer diagnósticos precisos e tratamentos eficazes.</p>
+              </div>
+            </div> <!-- Fim da icon-box 2 -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500"> <!-- Início da icon-box 3 -->
+              <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Profissionais Capacitados</a></h4>
+                <p>Contamos com uma equipe de especialistas dedicados e altamente qualificados para cuidar de você.</p>
+              </div>
+            </div> <!-- Fim da icon-box 3 -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600"> <!-- Início da icon-box 4 -->
+              <i class="fa-solid fa-lungs flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Cuidados Multidisciplinares</a></h4>
+                <p>Oferecemos uma abordagem multidisciplinar, integrando diferentes áreas da saúde para o seu bem-estar
+                  completo.</p>
+              </div>
+            </div> <!-- Fim da icon-box 4 -->
+
+          </div> 
+        </div>
+      </div> 
+    </section> <!-- Fim das características section -->
+
+    <section id="services" class="services section"> <!-- Início dos serviços -->
+
+      <div class="container section-title" data-aos="fade-up"> <!-- Início da section title -->
+
+        <h2> Serviços </h2>
+        <p> Oferecemos uma gama completa de serviços para garantir seu bem-estar e saúde. Confie em nossos profissionais
+          qualificados para cuidar de você. </p>
+
+      </div> <!-- Fim da section title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100"> <!-- Início do tópico 1 -->
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fas fa-notes-medical"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Consultas e Diagnósticos</h3>
+              </a>
+              <p>Nossas consultas e diagnósticos abrangem uma variedade de especialidades médicas. Estamos aqui para
+                fornecer um atendimento preciso e personalizado para suas necessidades de saúde.</p>
+            </div> 
+          </div> <!-- Fim do tópico 1 -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">  <!-- Início do tópico 2 -->
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-pills"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Medicamentos e Terapias</h3>
+              </a>
+              <p>Oferecemos uma ampla gama de medicamentos e terapias personalizadas para tratar uma variedade de
+                condições. Trabalhamos para garantir que você receba a medicação certa para sua condição específica.</p>
+            </div>
+          </div> <!-- Fim do tópico 2 -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">  <!-- Início do tópico 3 -->
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-hospital-user"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Atendimento Hospitalar</h3>
+              </a>
+              <p>Nosso hospital oferece cuidados completos e especializados para uma variedade de necessidades médicas.
+                Contamos com uma equipe experiente e tecnologia avançada para o melhor atendimento possível.</p>
+            </div>
+          </div> <!-- Fim do tópico 3 -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">  <!-- Início do tópico 4 -->
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-dna"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Exames Genéticos</h3>
+              </a>
+              <p>Realizamos exames genéticos para ajudar na prevenção e diagnóstico precoce de doenças. Nossa equipe
+                especializada está aqui para fornecer informações e suporte ao longo do processo.</p>
+
+            </div>
+          </div> <!-- Fim do tópico 4 -->
+          
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">  <!-- Início do tópico 5 -->
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-wheelchair"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Reabilitação e Fisioterapia</h3>
+              </a>
+              <p>Oferecemos serviços de reabilitação e fisioterapia para ajudar na recuperação e melhoria da qualidade
+                de vida. Nossos profissionais estão dedicados a ajudar você a atingir seus objetivos de saúde e
+                bem-estar.</p>
+            </div>
+          </div> <!-- Fim do tópico 5 -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">  <!-- Início do tópico 6 -->
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-heartbeat"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Cuidados Cardiológicos</h3>
+              </a>
+              <p>Oferecemos avaliações e tratamentos especializados para problemas cardíacos. Nossa equipe de
+                cardiologistas está pronta para fornecer o melhor cuidado para a sua saúde cardíaca.</p>
+
+            </div>
+          </div> <!-- Fim do tópico 6 -->
+
+        </div>
+
+      </div> 
+
+    </section> <!-- Fim dos serviços -->
+
+    <section id="consulta" class="consulta section light-background">  <!-- Início da consulta -->
+
+      <div class="container section-title" data-aos="fade-up">  <!-- Início da section title --> 
+
+        <h2>Agende uma Consulta</h2>
+        <p>Preencha o formulário abaixo para agendar uma consulta com um de nossos profissionais. Estamos aqui para
+          cuidar de você.</p>
+
+      </div> <!-- Fim da section title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <form action=" " method="post" class="email-form"> <!-- Estrutura do formulário -->
+
+          <div class="row"> <!-- Início da etapa 1-->
+
+            <div class="col-md-4 form-group">  <!-- Nome -->
+              <input type="text" name="name" class="form-control" id="name" placeholder="Digite o seu nome completo *" required>
+            </div>
+
+            <div class="col-md-4 form-group mt-3 mt-md-0"> <!-- E-mail -->
+              <input type="email" class="form-control" name="email" id="email" placeholder="Digite o seu e-mail *" required>
+            </div>
+
+            <div class="col-md-4 form-group mt-3 mt-md-0"> <!-- Telefone -->
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Digite o seu telefone *" required>
+            </div>
+
+          </div> <!-- Fim da etapa 1 -->
+
+          <div class="row"> <!-- Início da etapa 2 -->
+
+            <div class="col-md-4 form-group mt-3"> <!-- Data e hora -->
+              <input type="datetime-local" name="date" class="form-control datepicker" id="date"
+                placeholder="Data e Hora da Consulta" required>
+            </div>
+
+            <div class="col-md-4 form-group mt-3"> <!-- Departamentos / área -->
+              <select name="department" id="department" class="form-select" required>
+
+                <option value="">Selecione o Especialista</option>
+                <option value="Especialista 1">Cardiologia</option>
+                <option value="Especialista 2">Pediatria</option>
+                <option value="Especialista 3">Neurologia</option>
+
+              </select>
+            </div>
+
+            <div class="col-md-4 form-group mt-3">
+              <select name="doctor" id="doctor" class="form-select" required>
+
+                <option value="">Selecione o(a) Médico(a)</option>
+                <option value="Doctor 1">Dr. Silva</option>
+                <option value="Doctor 2">Dra. Oliveira</option>
+                <option value="Doctor 3">Dra. Costa</option>
+
+              </select>
+            </div>
+
+          </div> <!-- Fim da etapa 2 -->
+
+          <div class="form-group mt-3"> <!-- Campo mensagem -->
+            <textarea class="form-control" name="message" rows="5" placeholder="Mensagem (Opcional)">
+
+            </textarea>
+          </div>
+
+          <div class="mt-3"> <!-- Botão de enviar -->
+            <div class="text-center">
+              <button type="submit"> Agendar Consulta </button>
+            </div>
+          </div> 
+
+        </form>
+
+      </div>
+
+    </section> <!-- Fim da consulta -->
+
+    <section id="tabs" class="tabs section"> <!-- Início da tabs -->
+
+    </section> <!-- Fim da tabs -->
+
+    <section id="doctors" class="doctors section light-background"> <!-- Início da doctors section -->
+
+      <div class="container section-title" data-aos="fade-up"> <!-- Início da section title -->
+        <h2> Equipe // Médicos </h2>
+        <p>Nossos médicos são altamente qualificados e dedicados a proporcionar o melhor atendimento possível,
+          garantindo que cada paciente receba a atenção e o cuidado que merece.</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100"> <!-- Início da pessoa 1 -->
+
+            <div class="team-member">
+
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-1.jpg" alt="" class="img-fluid">
+                <div class="social">
+                  <a href="https://github.com/Ygorfnascimento" target="_blank"> <!-- Colocar o link do seu perfil -->
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ygorferreiradonascimentosilva" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </div> 
+              </div>
+
+              <div class="member-info">
+                <h4> Jax Teller </h4>
+                <span>Cardiologista</span>
+              </div>
+
+            </div> 
+
+          </div> <!-- Fim da pessoa 1 -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200"> <!-- Início da pessoa 2 -->
+
+            <div class="team-member">
+
+              <div class="member-img">
+
+                <img src="assets/img/doctors/doctors-2.jpg" alt="" class="img-fluid">
+                <div class="social">
+                  <a href="https://github.com/Ygorfnascimento" target="_blank"> <!-- Colocar o link do seu perfil -->
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ygorferreiradonascimentosilva" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </div> 
+
+              </div> 
+
+              <div class="member-info">
+                <h4> Tara Grace Teller </h4>
+                <span> Cirurgiã </span>
+              </div>
+
+            </div>
+
+          </div> <!-- Fim da pessoa 2 -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300"> <!-- Início da pessoa 3 -->
+
+            <div class="team-member">
+
+              <div class="member-img">
+
+                <img src="assets/img/doctors/doctors-3.jpg" alt="" class="img-fluid">
+                <div class="social">
+                  <a href="https://github.com/Ygorfnascimento" target="_blank"> <!-- Colocar o link do seu perfil -->
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ygorferreiradonascimentosilva" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </div> 
+
+              </div> 
+
+              <div class="member-info">
+                <h4> Glenn Rhee </h4>
+                <span> Neurologista </span>
+              </div>
+
+            </div> 
+
+          </div> <!-- fim da pessoa 3 -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400"> <!-- Início da pessoa 4 -->
+
+            <div class="team-member">
+
+              <div class="member-img">
+
+                <img src="assets/img/doctors/doctors-4.jpg" alt="" class="img-fluid">
+                <div class="social">
+                  <a href="https://github.com/Ygorfnascimento" target="_blank"> <!-- Colocar o link do seu perfil -->
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ygorferreiradonascimentosilva" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </div> 
+
+              </div> 
+
+              <div class="member-info">
+                <h4> Maggie Greene </h4>
+                <span> Infectologista </span>
+              </div>
+
+            </div> 
+
+          </div> <!-- Fim da pessoa 4 -->
+
+        </div>
+
+      </div> 
+
+    </section> <!-- Fim da doctors section -->
+
+    <section id="pricing" class="pricing section"> <!-- Início dos planos / preços section --> 
+
+    </section> <!-- Fim dos planos / preços section -->
+
+    <section id="faq" class="faq section light-background"> <!-- Início da faq section -->
+
+      <div class="container section-title" data-aos="fade-up"> <!-- Início do título faq -->
+        <h2> Perguntas Frequentes </h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div> <!-- Fim do título faq -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item"> <!-- Início da pergunta 1 -->
+                <h3>Pergunta 1 ?</h3>
+                <div class="faq-content">
+                  <p>Resposta: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid assumenda
+                    asperiores in! </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div> <!-- Fim da pergunta 1 -->
+
+              <div class="faq-item"> <!-- Início da pergunta 2 -->
+                <h3>Pergunta 2 ?</h3>
+                <div class="faq-content">
+                  <p>Resposta 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid assumenda
+                    asperiores in! </p>
+                </div> 
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div> <!-- Fim  da pergunta 2 -->
+
+            </div> 
+
+          </div>
+
+        </div> 
+
+      </div> 
+
+    </section> <!-- Fim da faq section -->
+
+    <section id="contato" class="contato section"> <!-- Início do contato section -->
+
+      <div class="container section-title" data-aos="fade-up"> <!--Início da section title -->
+
+        <h2>Entre em Contato</h2>
+        <p> Estamos aqui para ajudar você! Entre em contato conosco para esclarecer dúvidas ou obter mais informações
+        </p>
+
+      </div> <!-- Fim da section title -->
+
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1604245808976!2d-46.738486824547316!3d-23.526731760321137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8b811e8e3a1%3A0xa7564bb4c78f41b3!2sSenai%20Vila%20Leopoldina%20-%20Mariano%20Ferraz!5e0!3m2!1spt-BR!2sbr!4v1730995554634!5m2!1spt-BR!2sbr" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> <!-- Conteúdo do iFrame --> </iframe>
+
+      </div> 
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="row gy-4">
+
+              <div class="col-lg-12">  <!-- Início do endereço -->
+
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                  data-aos-delay="200">
+
+                  <i class="bi bi-geo-alt"> </i>
+                  <h3>Endereço</h3>
+                  <p>R: Jaguaré Mirim, 71 - Vila Leopoldina - SP </p>
+                </div>
+              </div> <!-- Fim do endereço -->
+
+              <div class="col-md-6"> <!-- Telefone -->
+
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                  data-aos-delay="300">
+
+                  <i class="bi bi-whatsapp"> </i>
+                  <h3>Telefone</h3>
+                  <p> (11) 3738-1260 </p>
+
+                </div>
+
+              </div> 
+
+              <div class="col-md-6"> <!-- Início do e-mail -->
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                  data-aos-delay="400">
+
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email</h3>
+                  <p>contato@exemplo.com</p>
+
+                </div>
+              </div> <!-- Fim do e-mail -->
+
+            </div>
+          </div>  
+
+          <div class="col-lg-6"> <!-- Início do formulário -->
+
+            <form action="" method="post" class="email-form" data-aos="fade-up" data-aos-delay="500">
+
+              <div class="row gy-4"> <!-- Conteúdo forms -->
+
+                <div class="col-md-6"> <!-- Campo nome -->
+                  <input type="text" name="name" class="form-control" placeholder="Digite o seu nome completo" required>
+                </div>
+
+                <div class="col-md-6">  <!-- E-mail -->
+                  <input type="email" class="form-control" name="email" placeholder="Digite o seu e-mail" required>
+                </div>
+
+                <div class="col-md-12"> <!-- Assunto -->
+                  <input type="text" class="form-control" name="subject" placeholder="Assunto" required>
+                </div>
+
+                <div class="col-md-12"> <!-- Mensagem -->
+                  <textarea class="form-control" name="message" rows="4" placeholder="Mensagem" required>
+
+                  </textarea>
+                </div>
+
+                <div class="col-md-12 text-center"> <!-- Botão de enviar -->
+                  <button type="submit">
+                    Enviar
+                  </button>
+                 </div>
+
+              </div>
+
+            </form>
+
+          </div> <!-- Fim do formulário -->
+
+        </div> 
+      </div>
+
+    </section> <!-- Fim do contato section -->
+
+  </main> <!-- Fim da main -->
+
+  <footer id="footer" class="footer light-background"> <!-- Início do footer -->
+
+  </footer> <!-- Fim do footer -->
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"> <!-- Botão de voltar ao topo = scroll-top -->
+
+    <i class="bi bi-arrow-up-short"> </i>
+
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>   <!-- Boostrap JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9.4.0/swiper-bundle.min.js"></script>
+
+  <script src="js/main.js"> </script> <!-- Main js -->
+
+</body> <!-- Fim do body -->
+
+</html>
